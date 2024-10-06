@@ -1,5 +1,6 @@
 import { A } from "@solidjs/router";
 import Counter from "~/components/Counter";
+import { Button } from "~/components/ui/button";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
         <A href="/about" class="text-sky-600 hover:underline">
           About Page
         </A>{" "}
+        <Button>Click me too!</Button>
+        
       </p>
     </main>
   );
