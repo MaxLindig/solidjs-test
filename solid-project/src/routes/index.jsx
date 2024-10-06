@@ -14,7 +14,7 @@ export default function Home() {
         to learn how to build Solid apps.
       </p>
       <p class="my-4">
-        <span>Home</span>
+        <span class="text-3xl">Home</span>
         {" - "}
         <A href="/about" class="text-sky-600 hover:underline">
           About Page
